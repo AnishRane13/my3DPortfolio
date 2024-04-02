@@ -39,7 +39,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skileed software developer with experience in JavaScript and
+        I am a skilled software developer with experience in JavaScript and
         Typescript, and expertise in frameworks like React, Preact, Node.js. I'm
         a quick learner. Currently I am doing internship as a frontend developer
         where I made 2 websites and some UI components for the UI library of the
