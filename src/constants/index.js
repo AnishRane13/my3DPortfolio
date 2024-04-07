@@ -23,7 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    cpp,
+    movix,
+    linkpro,
+    summarizer,
+    white,
   } from "../assets";
+
+
   
   export const navLinks = [
     {
@@ -69,6 +76,10 @@ import {
       icon: javascript,
     },
     {
+      name: "C++",
+      icon: cpp,
+    },
+    {
       name: "TypeScript",
       icon: typescript,
     },
@@ -106,7 +117,7 @@ import {
     { 
       title: "SSC",
       company_name: "Parle Tilak Vidyalaya",
-      icon: starbucks,
+      icon: white,
       iconBg: "#383E56",
       date: "June 2016 - April 2017",
       points: [
@@ -116,7 +127,7 @@ import {
     {
       title: "HSC",
       company_name: "Sathaye College",
-      icon: tesla,
+      icon: white,
       iconBg: "#E6DEDD",
       date: "July 2018 - March 2019",
       points: [
@@ -126,7 +137,7 @@ import {
     {
       title: "BSc in Information Technology",
       company_name: "Shopify",
-      icon: shopify,
+      icon: white,
       iconBg: "#383E56",
       date: "June 2021 - May 2022",
       points: [
@@ -136,11 +147,23 @@ import {
     {
       title: "Master's in Computer Applications",
       company_name: "Vivekananda Education Society's Institute of Technology",
-      icon: meta,
+      icon: white,
       iconBg: "#E6DEDD",
       date: "November 2022 - Present",
       points: [
         "Scored 8.8 C.G.P.A.",
+      ],
+    },
+    {
+      title: "Frontend Developer",
+      company_name: "Chintan Systems Private Limited",
+      icon: white,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - Present",
+      points: [
+        "Designed and developed a landing page for mydaulat.com using React and Node.js, integrating HubSpot for seamless data management and customer engagement.",
+        "Deployed modular components such as an address widget, drawer, and slider functionality to enhance user experience and interactivity on the landing page.",
+        "Implemented SSL certificate generation and server configuration for secure HTTPS communication, ensuring data integrity and user privacy in deployed web applications.",
       ],
     },
   ];
@@ -174,16 +197,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movix Web App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A React.js and Redux-powered web app utilising TMDB API for seamlessly presenting movie data. Features include a user-friendly search bar, trending and popular sections, and detailed movie cards with ratings, cast details, and trailers.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
@@ -191,49 +214,45 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: movix,
+      source_code_link: "https://github.com/AnishRane13/Movies",
     },
     {
-      name: "Job IT",
+      name: "LinkPro",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A LinkedIn clone developed using React.js featuring authentication, posting, connections, user exploration, and search functionalities. Seamlessly facilitates building meaningful professional connections and showcasing professional journeys.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "google firebase",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
+      image: linkpro,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Article Summarizer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear and concise summaries",
       tags: [
         {
-          name: "nextjs",
+          name: "React JS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Redux Toolkit",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: summarizer,
       source_code_link: "https://github.com/",
     },
   ];
