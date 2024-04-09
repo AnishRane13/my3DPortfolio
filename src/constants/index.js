@@ -232,7 +232,7 @@ import {
         },
       ],
       image: linkpro,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnishRane13/LinkedPro",
     },
     {
       name: "Article Summarizer",
@@ -253,7 +253,7 @@ import {
         },
       ],
       image: summarizer,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AnishRane13/AI_Article_Summarizer",
     },
   ];
   
